@@ -1,89 +1,32 @@
 
-// console.log(document.getElementsByTagName('h1'));
 
-// let h1arr=document.getElementsByTagName('h1');
-
-// console.log(h1arr[0]);
-// console.log(h1arr[1]);
-
-// for(let item of h1arr)
-// {
-//     console.log(item);
-// }
+// inner text;  it is aware about css
 
 
-// let parr=document.getElementsByTagName('p');
+// let para=document.querySelector('p');
 
-// for(let item of parr)
-// {
-//     console.log(item);
-// }
+// console.log(para.innerText);
 
 
-
-// let parr=document.getElementsByTagName('p');
-
-// for(let item of parr)
-// {
-//     item.style.color='red';
-//     item.style.border='4px solid  blue';
-// }
+// textContent   it is not aware about css
 
 
-//                                                  getElementByid
+// let para2=document.querySelector('p')
 
-
-// let a=document.getElementById('sam');
-
-// a.style.fontSize='70px'
-
-
-
-//                                                  getElemetsByClassName
-
-
-// let carr=document.getElementsByClassName('rish');
-
-// for(let item of carr)
-// {
-//     item.style.color='orange';
-// }
+// console.log(para2.textContent);
 
 
 
 
-//                                                    querySelector
+//                                           inner html
 
 
-// let sam=document.querySelector('#sam');
-// console.log(sam);
+// let para=document.querySelector('p');
+
+// //acting like getter
+// console.log(para.innerHTML);
 
 
-// let sam=document.querySelector('.rish');
-// console.log(sam);
+// //acting like setter
 
-
-
-//                                                  querySelectorAll
-
-
-
-
-// let sam=document.querySelectorAll('h1');
-
-// console.log(sam);
-
-
-// let sam=document.querySelectorAll('.rish');
-
-// console.log(sam);
-
-
-
-
-
-
-
-
-
-
+// para.innerHTML='ab mai purane wala dost  nahi raha '
