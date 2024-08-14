@@ -1,0 +1,27 @@
+/* 
+.first
+{
+    color: red;
+
+}
+.second
+{
+    background-color: navy;
+}
+
+.third
+{
+    border: 5px solid yellow;
+}
+
+.sam
+{
+    font-size: 50px;
+} */
+
+#container
+{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
